@@ -67,10 +67,10 @@ li {
 }
 
 form>ul {
-  /* display: flex;
-  justify-content: space-around; */
   text-transform: uppercase;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 form>ul>li{
@@ -84,6 +84,10 @@ label {
 input {
   border-color: #E5E7EB;
   border-radius: 5px;
+}
+
+input, label {
+  display:block;
 }
 
 #pwd, #confirm-pwd {
