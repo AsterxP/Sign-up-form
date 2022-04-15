@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left Sidebar */
+
+.sidebar {
+  background-image: url(/img/leaves.jpg);
+  background-size: cover;
+  flex-basis: 40%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  height: 150px;
+  width: auto;
+  background-color: rgba(0, 0, 0, 60%);
+  padding: 10px;
+}
+
+.logo>p {
+  color: white;
+  font-size: 6rem;
+  align-self: center;
+}
+
+/* Right Main */
+
+.main {
+  flex-basis: 60%;
+  background-color: rgb(247, 247, 247);
+}
+
+.heading {
+  padding: 150px 300px 0px 40px;
+}
+
+.heading>p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.form-mid {
+  padding-left: 40px;
+  background-color: white;
+  padding-top: 10px;
+}
+
+form>ul {
+  /* display: flex;
+  justify-content: space-around; */
+  text-transform: uppercase;
+  padding: 0;
+}
+
+form>ul>li{
+  padding: 10px 0;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  border-color: #E5E7EB;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+input:nth-child(5), input:nth-child(6) {
+  border-color: red;
+}
+
+.foot>p {
+  font-weight: 700;
+}
+
+.foot>p>a {
+  color: green;
+  font-weight: 900;
+}
+
+.foot{
+  height: auto;
+  padding-left: 40px;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+}
