@@ -86,12 +86,14 @@ input {
   border-radius: 5px;
 }
 
-input:focus {
-  border-color: blue;
+#pwd, #confirm-pwd {
+  outline: none;
+  border:1px solid red;
 }
 
-input:nth-child(5), input:nth-child(6) {
-  border-color: red;
+input:focus {
+  outline: none;
+  border:1px solid blue;
 }
 
 .foot>p {
